@@ -7,15 +7,15 @@ const faqs = [
     questions: [
       {
         question: '¿Cómo funciona el servicio?',
-        answer: 'El proceso es simple: primero completas un formulario para cargar tu negocio, dependiendo el plan que elijas, después, tenemos una consulta para entender tus necesidades, luego diseñamos tu sitio web, lo revisas para aprobación, y finalmente lo publicamos. Todo el proceso toma aproximadamente 5-7 días hábiles.'
+        answer: 'Primero, completas un formulario para cargar tu negocio, después, tenemos una consulta para entender tus necesidades, luego diseñamos tu sitio web, lo revisas para aprobación, y finalmente lo publicamos. Todo el proceso toma aproximadamente 5-7 días hábiles.'
       },
       {
         question: '¿Qué incluye el primer mes gratis?',
-        answer: 'El primer mes gratis incluye todos los servicios del plan que elijas: diseño web, hosting, tarjeta digital y todas las funcionalidades correspondientes. Es una oportunidad para que pruebes nuestro servicio sin ningún riesgo.'
+        answer: 'Incluye todos los servicios del plan que elijas: diseño web, hosting, (es dónde se aloja la pagina), tarjeta digital e imprimible y todas las funcionalidades correspondientes. Es una oportunidad para que pruebes nuestro servicio sin ningún tipo de riesgo.'
       },
       {
         question: '¿Necesito conocimientos técnicos?',
-        answer: 'No necesitas ningún conocimiento técnico. Nosotros nos encargamos de todo: desde el diseño hasta la publicación y mantenimiento de tu sitio web. Solo necesitas proporcionarnos la información de tu negocio.'
+        answer: 'No, Nosotros nos encargamos de todo: desde el diseño hasta la publicacion y matenimiento de tu sitio web. Sólo necesitas proporcionarnos la información de tu negocio para potenciarlo.'
       }
     ]
   },
@@ -24,15 +24,15 @@ const faqs = [
     questions: [
       {
         question: '¿Cómo se paga el servicio?',
-        answer: 'Aceptamos transferencias bancarias y pagos con tarjeta a través de MercadoPago. El servicio se paga mensualmente, y el primer mes es completamente gratis para que puedas probar nuestro servicio sin compromiso y sin riesgos.'
+        answer: 'Aceptamos transferencias y pagos con MercadoPago. El servicio se paga mensualmente, el primer mes es gratis (pagando con MercadoPago) para que puedas probar nuestros servicios sin compromiso y sin riesgos'
       },
       {
         question: '¿Hay costos ocultos?',
-        answer: 'No hay costos ocultos. El precio que ves es el precio que pagas. Incluye hosting, dominio, diseño, mantenimiento y soporte técnico. Todo está incluido en la tarifa mensual.'
+        answer: 'El precio que ves, es el precio que pagas. Incluye: Diseño, Hosting, Mantenimiento y Soporte Técnico. Todo está incluido en la mensualidad.'
       },
       {
         question: '¿Puedo cambiar de plan?',
-        answer: 'Sí, puedes cambiar de plan en cualquier momento. Si quieres actualizar a un plan superior, la diferencia se prorratea en tu próxima factura. Si quieres bajar de plan, el cambio se aplica en el siguiente ciclo de facturación.'
+        answer: 'Si, en cualquier momento. Tanto si quieres subir o bajar de plan. La diferencia de cobro se aplica en el siguiente mes de la solicitud.'
       }
     ]
   },
@@ -41,15 +41,15 @@ const faqs = [
     questions: [
       {
         question: '¿Cómo se actualiza el contenido?',
-        answer: 'Las actualizaciones se solicitan por WhatsApp o email. Dependiendo de tu plan, puedes solicitar actualizaciones una o dos veces al mes. Las actualizaciones se realizan en 24-48 horas hábiles.'
+        answer: 'Se solicitan por Whatsapp. Dependiendo de tu plan, puedes solicitar actualizaciones una o dos veces al mes.'
       },
       {
         question: '¿Qué tipo de actualizaciones puedo solicitar?',
-        answer: 'Puedes solicitar cambios de texto, imágenes, información de contacto, horarios, productos o servicios, y cualquier otro contenido de tu sitio web. Las actualizaciones de diseño mayor pueden requerir consulta adicional.'
+        answer: 'Puedes solicitar cambios de texto, imágenes, información de contacto, horarios, productos o servicios y cualquier otro contenido en el sitio.'
       },
       {
         question: '¿Tienen soporte técnico?',
-        answer: 'Sí, ofrecemos soporte técnico completo. Puedes contactarnos por WhatsApp, email o teléfono durante horarios de oficina. Respondemos consultas técnicas y resolvemos cualquier problema que puedas tener.'
+        answer: 'Si, ofrecesmos soporte técnico completo. Puedes contactarnos por WhatsApp durante horario comercial. Respondemos consultas técnicas y resolvemos cualquier problema que puedas tener.'
       }
     ]
   },
@@ -58,16 +58,20 @@ const faqs = [
     questions: [
       {
         question: '¿Cómo se da de baja el servicio?',
-        answer: 'Puedes dar de baja el servicio en cualquier momento sin penalización. Solo necesitas avisarnos con 5 días de anticipación antes del siguiente ciclo de facturación.'
+        answer: 'Puedes dar de baja el servicio en cualquier momento sin problemas. Solo necesitas avisarnos con cindo días de anticipación antes del siguiente ciclo de cobro.'
       },
       {
-        question: '¿Qué pasa con mi sitio web si cancelo?',
-        answer: 'Si cancelas el servicio, tu sitio web se mantendrá activo hasta el final del período pagado. Después de eso, el sitio se dará de baja. Puedes solicitar una copia de tu contenido antes de la cancelación.'
+        question: '¿Qué pasa si cancelo el servicio?',
+        answer: 'Si cancelas el servicio, el mismo se mantendrá activo hasta el final del período pagado. Después de eso, todo se dará de baja.'
       },
       {
         question: '¿Puedo recuperar mi sitio después de cancelar?',
-        answer: 'Sí, puedes reactivar tu servicio en cualquier momento. Si han pasado menos de 30 días desde la cancelación, podemos restaurar tu sitio completamente. Después de 30 días, necesitaremos recrear el contenido.'
-      }
+        answer: 'Si, puedes reactivar tu servicio en cualquier momento. Si han pasado menos de 30 días desde la cancelación, podemos restaurar tu sitio. Después de 30 días, necesitaremos recrear el contenido completo.'
+      },
+      {
+        question: '¿Qué sucede si dejo de pagar o no pago?',
+        answer: 'El sistema de cobro por MercadoPago está con figurado para cobro automático mes a mes, en el caso de no registrar tu cobro, todos tus servicios se pausarán automáticamente, esto hace que tu sitio no sea visto en internet. Todos los servicios se restaurarán una vez que el pago correspondiente se detecte.'
+      }  
     ]
   }
 ];
